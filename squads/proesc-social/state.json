@@ -1,13 +1,13 @@
 {
   "squad": "proesc-social",
   "status": "running",
-  "step": { "current": 2, "total": 10, "label": "step-02-pesquisa" },
+  "step": { "current": 6, "total": 10, "label": "step-06-criacao" },
   "agents": [
     {
       "id": "daniela-dados",
       "name": "Daniela Dados",
       "icon": "🔍",
-      "status": "working",
+      "status": "done",
       "deliverTo": null,
       "desk": { "col": 1, "row": 1 }
     },
@@ -15,15 +15,15 @@
       "id": "estela-estrategia",
       "name": "Estela Estratégia",
       "icon": "📐",
-      "status": "idle",
-      "deliverTo": null,
+      "status": "delivering",
+      "deliverTo": "caio-copy",
       "desk": { "col": 2, "row": 1 }
     },
     {
       "id": "caio-copy",
       "name": "Caio Copy",
       "icon": "✍️",
-      "status": "idle",
+      "status": "working",
       "deliverTo": null,
       "desk": { "col": 3, "row": 1 }
     },
@@ -44,7 +44,12 @@
       "desk": { "col": 2, "row": 2 }
     }
   ],
-  "handoff": null,
+  "handoff": {
+    "from": "estela-estrategia",
+    "to": "caio-copy",
+    "message": "Ângulo Oportunidade selecionado para LinkedIn, tom Provocador-Estratégico",
+    "completedAt": "2026-03-17T19:56:00.000Z"
+  },
   "startedAt": "2026-03-17T19:08:00.000Z",
-  "updatedAt": "2026-03-17T19:09:00.000Z"
+  "updatedAt": "2026-03-17T19:56:00.000Z"
 }

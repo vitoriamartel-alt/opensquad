@@ -1,0 +1,6 @@
+id,path,displayName,icon,title,execution
+daniela-dados,./agents/daniela-dados.agent.md,Daniela Dados,🔍,Analista & Pesquisadora,subagent
+estela-estrategia,./agents/estela-estrategia.agent.md,Estela Estratégia,📐,Estrategista de Conteúdo,inline
+caio-copy,./agents/caio-copy.agent.md,Caio Copy,✍️,Content & Copy Specialist,subagent
+ana-automacao,./agents/ana-automacao.agent.md,Ana Automação,⚙️,AI Ops & Automation Specialist,inline
+renata-revisao,./agents/renata-revisao.agent.md,Renata Revisão,✅,Revisora de Qualidade,inline

@@ -1,0 +1,53 @@
+name: "Proesc Social Media Squad"
+code: proesc-social
+description: "Squad completo para produção de conteúdo de redes sociais da Proesc — pesquisa de pautas, estratégia de ângulos, criação multi-plataforma, automação e revisão de qualidade."
+icon: "📱"
+version: "1.0.0"
+created: "2026-03-17"
+company: Proesc
+target_audience: "Gestores e diretores de escolas privadas e públicas"
+platforms:
+  - instagram
+  - linkedin
+  - youtube
+  - facebook
+  - tiktok
+performance_mode: alta-performance
+
+investigation:
+  enriched: false
+  profiles_analyzed: 0
+  note: "Sherlock investigation attempted but browser not available. Squad built from web research."
+  date: "2026-03-17"
+  dir: squads/proesc-social/_investigations
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+
+pipeline:
+  steps:
+    - pipeline/steps/step-01-foco-pesquisa.md
+    - pipeline/steps/step-02-pesquisa.md
+    - pipeline/steps/step-03-selecao-pauta.md
+    - pipeline/steps/step-04-angulos.md
+    - pipeline/steps/step-05-selecao-angulo.md
+    - pipeline/steps/step-06-criacao.md
+    - pipeline/steps/step-07-aprovacao-conteudo.md
+    - pipeline/steps/step-08-consolidacao.md
+    - pipeline/steps/step-09-revisao.md
+    - pipeline/steps/step-10-aprovacao-final.md
+  checkpoints:
+    - pipeline/steps/step-01-foco-pesquisa.md
+    - pipeline/steps/step-03-selecao-pauta.md
+    - pipeline/steps/step-05-selecao-angulo.md
+    - pipeline/steps/step-07-aprovacao-conteudo.md
+    - pipeline/steps/step-10-aprovacao-final.md

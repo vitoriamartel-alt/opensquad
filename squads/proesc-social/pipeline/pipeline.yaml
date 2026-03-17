@@ -1,0 +1,19 @@
+squad: proesc-social
+version: "1.0.0"
+steps:
+  - pipeline/steps/step-01-foco-pesquisa.md
+  - pipeline/steps/step-02-pesquisa.md
+  - pipeline/steps/step-03-selecao-pauta.md
+  - pipeline/steps/step-04-angulos.md
+  - pipeline/steps/step-05-selecao-angulo.md
+  - pipeline/steps/step-06-criacao.md
+  - pipeline/steps/step-07-aprovacao-conteudo.md
+  - pipeline/steps/step-08-consolidacao.md
+  - pipeline/steps/step-09-revisao.md
+  - pipeline/steps/step-10-aprovacao-final.md
+checkpoints:
+  - pipeline/steps/step-01-foco-pesquisa.md
+  - pipeline/steps/step-03-selecao-pauta.md
+  - pipeline/steps/step-05-selecao-angulo.md
+  - pipeline/steps/step-07-aprovacao-conteudo.md
+  - pipeline/steps/step-10-aprovacao-final.md
